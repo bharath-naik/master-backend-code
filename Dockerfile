@@ -20,6 +20,5 @@ RUN npm install --production
 # Bundle app source
 COPY . .
 
-CMD [ "node", "server.js" ]
-
 EXPOSE 8000
+CMD [ "node", "server.js" ]

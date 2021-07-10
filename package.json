@@ -1,0 +1,28 @@
+{
+  "name": "socketio_audio",
+  "version": "1.0.0",
+  "description": "master backend server for master psuhpin node",
+  "main": "index.js",
+  "scripts": {
+    "test": "index"
+  },
+  "keywords": [
+    "socketio",
+    "pushpin",
+    "audio",
+    "broadcast"
+  ],
+  "author": "bharath naik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "http": "*",
+    "socket.io": "^4.0.1",
+    "throttle": "^1.0.3"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.3",
+    "utf-8-validate": "^5.0.4"
+  }
+}
